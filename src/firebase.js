@@ -1,5 +1,8 @@
+// This is how we connect our site to firebase
 import firebase from "firebase";
 
+// We got this from the firebase console, however we are not using it
+// at the moment
 const firebaseApp = firebase.initializeApp({
   apiKey: "AIzaSyBYZR2Rrw0mrl7NF59wiNFwK3AFMMzkk0w",
   authDomain: "clone-a8ee3.firebaseapp.com",
@@ -13,4 +16,5 @@ const firebaseApp = firebase.initializeApp({
 
 const auth = firebase.auth();
 
+// Anything that we have to use outside of this file, we export it
 export { auth };

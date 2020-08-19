@@ -2,17 +2,22 @@ import React from "react";
 import Product from "./Product";
 import "./Home.css";
 
+// This is the home page component
 function Home() {
   return (
     <div className="home">
+
+      {/* This is the img on the background */}
       <img
         className="home__image"
         src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
         alt=""
       />
 
-      {/* Product id, title, price, rating, image */}
+      {/* Product component -> id, title, price, rating, image is what 
+        we are passing as parameters */}
       <div className="home__row">
+        {/* Putting in dummy products from the amazon website */}
         <Product
           id="1"
           title="Why Not Me?: A feeling of Millions (Hinglish Edition) Kindle Edition"
@@ -69,4 +74,5 @@ function Home() {
   );
 }
 
+// Anything that we have to use outside of this file, we export it
 export default Home;

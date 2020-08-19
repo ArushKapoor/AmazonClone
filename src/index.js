@@ -8,6 +8,7 @@ import reducer, { initialState } from "./reducer";
 
 ReactDOM.render(
   <React.StrictMode>
+    {/* Wrapping the app inside the provider to setup the data layer */}
     <StateProvider initialState={initialState} reducer={reducer}>
       <App />
     </StateProvider>

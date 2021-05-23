@@ -1,0 +1,20 @@
+.footer__span {
+  font-size: small;
+}
+
+.footer__span__sm {
+  font-size: smaller;
+}
+
+.footer__ul {
+  list-style-type: none;
+}
+
+.footer__ul > li {
+  margin: 0;
+  line-height: 1em;
+}
+
+.footer__text {
+  color: rgb(153, 153, 153);
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import { Carousel, Col, Row } from "react-bootstrap";
+import { Carousel, Col, Row, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Product from "./Product";
 import "./Home.css";
@@ -8,19 +8,19 @@ import "./Home.css";
 function Home() {
   return (
     <div className="home">
-      {/* This is the img on the background  having Carousel*/}
-      <Carousel className="home__image" nextLabel={""} prevLabel={""}>
+      {/* This is the img on the background  having Carousel*/} 
+      <Carousel className="home__image" nextLabel={""} prevLabel={""} interval={2000} slide="true" wrap="true">
         <Carousel.Item>
           <img
             className=""
-            src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/img18/Fresh/GW/May21/fresh-pc_021x._CB670987717_.jpg"
             alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className=""
-            src="https://images-eu.ssl-images-amazon.com/images/G/31/img18/Fresh/GW/May21/fresh-pc_021x._CB670987717_.jpg"
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonSmallBusinessDay/EssentialsStore/1x._CB668073731_.jpg"
             alt="Second slide"
           />
         </Carousel.Item>
@@ -41,7 +41,7 @@ function Home() {
         <Carousel.Item>
           <img
             className=""
-            src=" https://images-eu.ssl-images-amazon.com/images/G/31/img21/HPC/GW/Grocery_1500x600._CB669573043_.jpg"
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/HPC/GW/Household_1500x600_V2._CB670004437_.jpg"
             alt="Fifth slide"
           />
         </Carousel.Item>
@@ -67,60 +67,82 @@ function Home() {
           image="https://www.amazon.in/images/I/41-G7AIOZyL.jpg"
         />
       </div>
-       <Row className="carousel-row">
-        <Carousel  nextLabel={""} prevLabel={""}>
+        <Carousel  nextLabel={""} prevLabel={""} className="home__row" interval={2000} slide="true" wrap="true">
+      
           <Carousel.Item>
+          <Container>
             <Row>
-              <Col>
+              <Col lg={2}></Col>
+              <Col lg={2}>
                 <img
                   className="bottom-carousel"
                   src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/GW/Covid/shovler/1x/Shoveler_covid_donation_1x._CB671053910_.jpg"
                   alt="First slide"
                 />
               </Col>
-              <Col>
+              <Col lg={2}>
                 <img
                   className="bottom-carousel"
                   src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/GW/shoveller/Shoveler_covid_v2_smb_1x._CB669068181_.jpg"
                   alt="First slide"
                 />
               </Col>
-              <Col>
+              <Col lg={2}>
                 <img
                   className="bottom-carousel"
                   src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/GW/milaap/Shoveler_covid_homecare_1x._CB669529040_.jpg"
                   alt="First slide"
                 />
               </Col>
+              <Col lg={2}>
+                <img
+                  className="bottom-carousel"
+                  src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/GW/Covid/shovler/1x/Shoveler_covid_payment_1x._CB671053910_.jpg"
+                  alt="First slide"
+                />
+              </Col>
+              <Col lg={2}></Col>
             </Row>
+            </Container>
           </Carousel.Item>
           <Carousel.Item>
+          <Container>
             <Row>
-              <Col>
+            <Col lg={2}></Col>
+              <Col lg={2}>
                 <img
                   className="bottom-carousel"
                   src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/GW/Covid/shovler/1x/Shoveler_covid_vaccine_1x._CB671053910_.jpg"
                   alt="First slide"
                 />
               </Col>
-              <Col>
+              <Col lg={2}>
                 <img
                   className="bottom-carousel"
                   src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/GW/milaap/Shoveler_covid_Blog_1x._CB669735929_.jpg"
                   alt="First slide"
                 />
               </Col>
-              <Col>
+              <Col lg={2}>
                 <img
                   className="bottom-carousel"
                   src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/GW/Covid/shovler/1x/Shoveler_covid_delivery__return_1x._CB671053910_.jpg"
                   alt="First slide"
                 />
               </Col>
+              <Col lg={2}>
+                <img
+                  className="bottom-carousel"
+                  src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/GW/Covid/shovler/1x/Shoveler_covid_payment_1x._CB671053910_.jpg"
+                  alt="First slide"
+                />
+              </Col>
+              <Col lg={2}></Col>
             </Row>
+            </Container>
           </Carousel.Item>
         </Carousel>
-      </Row>
+      
      
       <div className="home__row">
         <Product

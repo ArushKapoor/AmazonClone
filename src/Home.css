@@ -2,12 +2,13 @@
     max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgb(234,237, 237);
 }
 
 .home__image {
     width: 100%;
     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-    z-index: -1;
+    z-index: 1;
     margin-bottom: -150px;
 }
 
@@ -19,6 +20,23 @@
 }
 
 .carousel-row {
+    z-index: 1;
+    display: inline;
     
     justify-content: center;
+}
+.bottom-carousel {
+         
+        display:flex;
+        height: auto; 
+        max-width: 100%;
+     
+    border-radius: 50%;
+}
+.carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
 }

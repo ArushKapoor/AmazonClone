@@ -13,7 +13,7 @@ function Header() {
 
   // Getting the data layer/ global variable
   const [{ basket, user }] = useStateValue();
-  const [isOpen, toggle] = useState(false)
+  const [isOpen, toggle] = useState(true)
 
   const toggleSidebar = () => {
     toggle((isOpen) => !isOpen)

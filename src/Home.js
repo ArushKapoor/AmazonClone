@@ -4,12 +4,26 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Product from "./Product";
 import "./Home.css";
 
+
 // This is the home page component
 function Home() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
   return (
     <div className="home">
-      {/* This is the img on the background  having Carousel*/} 
-      <Carousel className="home__image" nextLabel={""} prevLabel={""} interval={2000} slide="true" wrap="true">
+      {/* This is the img on the background  having Carousel*/}
+      <Carousel
+        className="home__image"
+        nextLabel={""}
+        prevLabel={""}
+        interval={2000}
+        slide="true"
+        wrap="true"
+      >
         <Carousel.Item>
           <img
             className=""
@@ -67,9 +81,15 @@ function Home() {
           image="https://www.amazon.in/images/I/41-G7AIOZyL.jpg"
         />
       </div>
-        <Carousel  nextLabel={""} prevLabel={""} className="home__row" interval={2000} slide="true" wrap="true">
-      
-          <Carousel.Item>
+      <Carousel
+        nextLabel={""}
+        prevLabel={""}
+        className="home__row"
+        interval={2000}
+        slide="true"
+        wrap="true"
+      >
+        <Carousel.Item>
           <Container>
             <Row>
               <Col lg={2}></Col>
@@ -103,12 +123,12 @@ function Home() {
               </Col>
               <Col lg={2}></Col>
             </Row>
-            </Container>
-          </Carousel.Item>
-          <Carousel.Item>
+          </Container>
+        </Carousel.Item>
+        <Carousel.Item>
           <Container>
             <Row>
-            <Col lg={2}></Col>
+              <Col lg={2}></Col>
               <Col lg={2}>
                 <img
                   className="bottom-carousel"
@@ -139,11 +159,10 @@ function Home() {
               </Col>
               <Col lg={2}></Col>
             </Row>
-            </Container>
-          </Carousel.Item>
-        </Carousel>
-      
-     
+          </Container>
+        </Carousel.Item>
+      </Carousel>
+
       <div className="home__row">
         <Product
           id="3"
@@ -179,8 +198,11 @@ function Home() {
           image="https://www.amazon.in/images/I/51T8OXMiB5L.jpg"
         />
       </div>
+      <div className="btn btn-outline-secondary back" onClick={scrollToTop}>back to top</div>
     </div>
   );
+  //Get the button:
+
 }
 
 // Anything that we have to use outside of this file, we export it

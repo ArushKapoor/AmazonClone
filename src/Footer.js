@@ -113,9 +113,7 @@ function Footer() {
               {/* Grid column */}
 
               {/* Grid column */}
-              <div className="col-md-1 mx-auto">
-                <br />
-              </div>
+              <div className="col-md-1 mx-auto"></div>
               {/* Grid column */}
             </div>
             {/* Grid row */}
@@ -281,18 +279,6 @@ function Footer() {
           </ul>
           <br />
         </div>
-        {/* Copyright */}
-
-        {/* Copyright */}
-        {/* <div
-          class="text-center p-4"
-          style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
-        >
-          © 2021 Copyright:
-          <a class="text-reset fw-bold" href="https://mdbootstrap.com/">
-            MDBootstrap.com
-          </a>
-        </div> */}
         {/* Copyright */}
       </footer>
       {/* Footer */}

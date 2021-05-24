@@ -12,7 +12,7 @@ function Footer() {
 
         {/* Section: Links */}
         <section class="" style={{ backgroundColor: "rgb(34, 48, 62)" }}>
-          <div class="container text-center text-md-start mt-5">
+          <div class="container text-center text-md-start">
             <br />
             {/* Grid row */}
             <div class="row mt-3">

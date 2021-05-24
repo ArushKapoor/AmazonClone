@@ -14,6 +14,7 @@ function Home() {
   };
   
   return (
+    <>
     <div className="home">
       {/* This is the img on the background  having Carousel*/}
       <Carousel
@@ -198,10 +199,12 @@ function Home() {
           image="https://www.amazon.in/images/I/51T8OXMiB5L.jpg"
         />
       </div>
-      <div className="btn btn-outline-secondary back" onClick={scrollToTop}>
+      
+    </div>
+    <div className="btn btn-outline-secondary back" onClick={scrollToTop}>
         back to top
       </div>
-    </div>
+      </>
   );
   //Get the button:
 }

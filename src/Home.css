@@ -51,9 +51,13 @@
     display: flex;
     justify-content: center;
     z-index: 99;
-    background-color: #555;
+    background-color: #354859;
     color:#ffffff;
     font-size: small;
+    font-weight: 500;
+}
+.back:hover {
+    background-color: #485868;
 }
 
 

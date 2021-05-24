@@ -24,3 +24,15 @@
   color: rgb(153, 153, 153);
   font-weight: 500;
 }
+
+.footer__link {
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  border-bottom: 1px solid white;
+}
+
+.footer__ul:hover {
+  text-decoration: underline white;
+}

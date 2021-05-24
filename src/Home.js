@@ -12,6 +12,7 @@ function Home() {
       behavior: "smooth",
     });
   };
+  
   return (
     <div className="home">
       {/* This is the img on the background  having Carousel*/}

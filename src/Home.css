@@ -55,3 +55,14 @@
     color:#ffffff;
     font-size: small;
 }
+
+
+.carousel-indicators{
+    background-color: darkgray; 
+}
+.carousel-control-next-icon{
+    background-image : url(./resources/arrowright.svg);
+}
+.carousel-control-prev-icon{
+  background-image : url(./resources/arrowleft.svg);
+}

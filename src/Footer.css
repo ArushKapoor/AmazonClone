@@ -8,6 +8,7 @@
 
 .footer__ul {
   list-style-type: none;
+  margin-left: -7%;
 }
 
 .footer__ul > li {
@@ -15,6 +16,11 @@
   line-height: 1em;
 }
 
+.footer__left {
+  margin-left: -7%;
+}
+
 .footer__text {
   color: rgb(153, 153, 153);
+  font-weight: 500;
 }

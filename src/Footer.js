@@ -16,7 +16,12 @@ function Footer() {
             {/* Grid row */}
             <div class="row mt-3">
               {/* Grid column */}
-              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <div className="col-md-2 mx-auto">
+                <br />
+              </div>
+              {/* Grid column */}
+              {/* Grid column */}
+              <div class="col-md-2 mx-auto mb-4">
                 {/* Content */}
                 <span className="fw-bold mb-4 text-white">Get to Know Us</span>
                 <br />
@@ -33,7 +38,7 @@ function Footer() {
               {/* Grid column */}
 
               {/* Grid column */}
-              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <div class="col-md-2 mx-auto mb-4">
                 {/* Links */}
                 <span class="fw-bold mb-4 text-white">Connect with Us</span>
                 <br />
@@ -46,7 +51,7 @@ function Footer() {
               {/* Grid column */}
 
               {/* Grid column */}
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <div class="col-md-3 mx-auto mb-4">
                 {/* Links */}
                 <span class="fw-bold mb-4 text-white">Make Money with Us</span>
                 <br />
@@ -79,7 +84,7 @@ function Footer() {
               {/* Grid column */}
 
               {/* Grid column */}
-              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <div class="col-md-2 mx-auto mb-4">
                 {/* Links */}
                 <span class="fw-bold mb-4 text-white">Let Us Help You</span>
                 <br />
@@ -106,6 +111,12 @@ function Footer() {
                 <span className="text-white footer__span">Help</span>
               </div>
               {/* Grid column */}
+
+              {/* Grid column */}
+              <div className="col-md-1 mx-auto">
+                <br />
+              </div>
+              {/* Grid column */}
             </div>
             {/* Grid row */}
           </div>
@@ -114,102 +125,137 @@ function Footer() {
 
         <section style={{ backgroundColor: "rgb(19, 26, 33)" }}>
           <br />
-          <div className="row">
-            <div className="col-md-2 mx-auto">
-              <ul className="footer__ul">
-                <li className="text-white footer__span__sm">AbeBooks</li>
-                <li className="footer__text footer__span__sm">Books, art</li>
-                <li className="footer__text footer__span__sm">
-                  &amp; collectibles
-                </li>
-              </ul>
+          <div className="container">
+            <div className="row">
+              <div className="col-md-1 mx-auto"></div>
+              <div className="col-md-2 mx-auto">
+                <ul className="footer__ul">
+                  <li className="text-white footer__span__sm">
+                    <small>AbeBooks</small>
+                  </li>
+                  <li className="footer__text footer__span__sm">
+                    <small>Books, art</small>
+                  </li>
+                  <li className="footer__text footer__span__sm">
+                    <small>&amp; collectibles</small>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-2 mx-auto">
+                <ul className="footer__ul">
+                  <li className="text-white footer__span__sm">
+                    <small>Amazon Web Services</small>
+                  </li>
+                  <li className="footer__text footer__span__sm">
+                    <small>Scalable Cloud</small>
+                  </li>
+                  <li className="footer__text footer__span__sm">
+                    <small>Computing Services</small>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-2 mx-auto">
+                <ul className="footer__ul">
+                  <li className="text-white footer__span__sm">
+                    <small>Audible</small>
+                  </li>
+                  <li className="footer__text footer__span__sm">
+                    <small>Download</small>
+                  </li>
+                  <li className="footer__text footer__span__sm">
+                    <small>Audio Books</small>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-2 mx-auto">
+                <ul className="footer__ul">
+                  <li className="text-white footer__span__sm">
+                    <small>DPReview</small>
+                  </li>
+                  <li className="footer__text footer__span__sm">
+                    <small>Digital</small>
+                  </li>
+                  <li className="footer__text footer__span__sm">
+                    <small>Photography</small>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-2 mx-auto">
+                <ul className="footer__ul">
+                  <li className="text-white footer__span__sm">
+                    <small>IMDb</small>
+                  </li>
+                  <li className="footer__text footer__span__sm">
+                    <small>Movies, TV</small>
+                  </li>
+                  <li className="footer__text footer__span__sm">
+                    <small>&amp; Celebrities</small>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-1 mx-auto"></div>
             </div>
-            <div className="col-md-2 mx-auto">
-              <ul className="footer__ul">
-                <li className="text-white footer__span__sm">
-                  Amazon Web Services
-                </li>
-                <li className="footer__text footer__span__sm">
-                  Scalable Cloud
-                </li>
-                <li className="footer__text footer__span__sm">
-                  Computing Services
-                </li>
-              </ul>
-            </div>
-            <div className="col-md-2 mx-auto">
-              <ul className="footer__ul">
-                <li className="text-white footer__span__sm">Audible</li>
-                <li className="footer__text footer__span__sm">Download</li>
-                <li className="footer__text footer__span__sm">Audio Books</li>
-              </ul>
-            </div>
-            <div className="col-md-2 mx-auto">
-              <ul className="footer__ul">
-                <li className="text-white footer__span__sm">DPReview</li>
-                <li className="footer__text footer__span__sm">Digital</li>
-                <li className="footer__text footer__span__sm">Photography</li>
-              </ul>
-            </div>
-            <div className="col-md-2 mx-auto">
-              <ul className="footer__ul">
-                <li className="text-white footer__span__sm">IMDb</li>
-                <li className="footer__text footer__span__sm">Movies, TV</li>
-                <li className="footer__text footer__span__sm">
-                  &amp; Celebrities
-                </li>
-              </ul>
-            </div>
-          </div>
 
-          <div className="row" style={{ backgroundColor: "rgb(19, 26, 33)" }}>
-            <br />
-          </div>
+            <div className="row" style={{ backgroundColor: "rgb(19, 26, 33)" }}>
+              <br />
+            </div>
 
-          <div className="row" style={{ backgroundColor: "rgb(19, 26, 33)" }}>
-            <div className="col-md-2 mx-auto">
-              <ul className="footer__ul">
-                <li className="text-white footer__span__sm">Shopbop</li>
-                <li className="footer__text footer__span__sm">Designer</li>
-                <li className="footer__text footer__span__sm">
-                  Fashion Brands
-                </li>
-              </ul>
+            <div className="row" style={{ backgroundColor: "rgb(19, 26, 33)" }}>
+              <div className="col-md-1 mx-auto"></div>
+              <div className="col-md-2 mx-auto">
+                <ul className="footer__ul">
+                  <li className="text-white footer__span__sm">
+                    <small>Shopbop</small>
+                  </li>
+                  <li className="footer__text footer__span__sm">
+                    <small>Designer</small>
+                  </li>
+                  <li className="footer__text footer__span__sm">
+                    <small>Fashion Brands</small>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-2 mx-auto">
+                <ul className="footer__ul">
+                  <li className="text-white footer__span__sm">
+                    <small>Amazon Business</small>
+                  </li>
+                  <li className="footer__text footer__span__sm">
+                    <small>Everything For</small>
+                  </li>
+                  <li className="footer__text footer__span__sm">
+                    <small>Your Business</small>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-2 mx-auto">
+                <ul className="footer__ul">
+                  <li className="text-white footer__span__sm">
+                    <small>Prime Now</small>
+                  </li>
+                  <li className="footer__text footer__span__sm">
+                    <small>2-Hour Delivery</small>
+                  </li>
+                  <li className="footer__text footer__span__sm">
+                    <small>on Everyday Items</small>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-2 mx-auto">
+                <ul className="footer__ul">
+                  <li className="text-white footer__span__sm">
+                    <small>Amazon Prime Music</small>
+                  </li>
+                  <li className="footer__text footer__span__sm">
+                    <small>70 million songs, ad-free</small>
+                  </li>
+                  <li className="footer__text footer__span__sm">
+                    <small>Over 9 million podcast episodes</small>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-3 mx-auto"></div>
             </div>
-            <div className="col-md-2 mx-auto">
-              <ul className="footer__ul">
-                <li className="text-white footer__span__sm">Amazon Business</li>
-                <li className="footer__text footer__span__sm">
-                  Everything For
-                </li>
-                <li className="footer__text footer__span__sm">Your Business</li>
-              </ul>
-            </div>
-            <div className="col-md-2 mx-auto">
-              <ul className="footer__ul">
-                <li className="text-white footer__span__sm">Prime Now</li>
-                <li className="footer__text footer__span__sm">
-                  2-Hour Delivery
-                </li>
-                <li className="footer__text footer__span__sm">
-                  on Everyday Items
-                </li>
-              </ul>
-            </div>
-            <div className="col-md-2 mx-auto">
-              <ul className="footer__ul">
-                <li className="text-white footer__span__sm">
-                  Amazon Prime Music
-                </li>
-                <li className="footer__text footer__span__sm">
-                  70 million songs, ad-free
-                </li>
-                <li className="footer__text footer__span__sm">
-                  Over 9 million podcast episodes
-                </li>
-              </ul>
-            </div>
-            <div className="col-md-2 mx-auto"></div>
           </div>
         </section>
 

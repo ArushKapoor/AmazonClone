@@ -106,15 +106,15 @@ function Header() {
   </Link>
 </div>
 </nav>
-<nav className="bg-dark text-white py-2 px-3">
- <div className="d-flex align-items-center justify-content-between">
- <div>
- <button className="btn btn-secondary fw-bold" onClick={toggleSidebar}><a class="bi text-decoration-none btn-outline-light bi-list"> All</a></button>
-  <a href="#bestSeller" className="ms-3 text-decoration-none btn btn-outline-light">Best Seller</a>
-  <a href="#mobile" className="ms-3 text-decoration-none btn btn-outline-light">Mobiles</a>
-  <a href="#fashion" className="ms-3 text-decoration-none btn btn-outline-light">Fashion</a>
-  <a href="#laptop" className="ms-3 text-decoration-none btn btn-outline-light">Laptops</a>
-  <a href="#customerservice" className="ms-3 text-decoration-none btn btn-outline-light">Customer Service</a>
+<nav className="text-white px-3" style={{"background-color": "#232F3E", "height": "40px"}}>
+ <div className="d-flex align-items-center justify-content-between" >
+ <div >
+ <button className="btn btn-secondary fw-bold" onClick={toggleSidebar}><a class="bi text-decoration-none btn-outline-light bi-list " style={{"font-size": "14px"}}> All</a></button>
+  <a href="#bestSeller" className="ms-3 text-decoration-none btn btn-outline-light" style={{"font-size": "14px"}}>Best Seller</a>
+  <a href="#mobile" className="ms-3 text-decoration-none btn btn-outline-light" style={{"font-size": "14px"}}>Mobiles</a>
+  <a href="#fashion" className="ms-3 text-decoration-none btn btn-outline-light" style={{"font-size": "14px"}}>Fashion</a>
+  <a href="#laptop" className="ms-3 text-decoration-none btn btn-outline-light" style={{"font-size": "14px"}}>Laptops</a>
+  <a href="#customerservice" className="ms-3 text-decoration-none btn btn-outline-light" style={{"font-size": "14px"}}>Customer Service</a>
  </div>
  <img src={amazon} />
  </div>

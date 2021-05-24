@@ -84,7 +84,7 @@ function Home() {
       <Carousel
         nextLabel={""}
         prevLabel={""}
-        className="home__row"
+        className="home__row btm-carousel"
         interval={2000}
         slide="true"
         wrap="true"

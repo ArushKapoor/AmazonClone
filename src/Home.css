@@ -25,12 +25,17 @@
     
     justify-content: center;
 }
+.btm-carousel {
+    background-color: #ffffff;
+    color: #ffffff;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 .bottom-carousel {
-         
-        display:flex;
-        height: auto; 
-        max-width: 100%;
-     
+    display:flex;
+    height: auto; 
+    max-width: 100%;
     border-radius: 50%;
 }
 .carousel-item {

@@ -114,11 +114,8 @@ function Footer() {
 
         <section style={{ backgroundColor: "rgb(19, 26, 33)" }}>
           <br />
-          <div
-            className="row justify-content-center"
-            style={{ backgroundColor: "rgb(19, 26, 33)" }}
-          >
-            <div className="col text-center">
+          <div className="row">
+            <div className="col-md-2 mx-auto">
               <ul className="footer__ul">
                 <li className="text-white footer__span__sm">AbeBooks</li>
                 <li className="footer__text footer__span__sm">Books, art</li>
@@ -127,7 +124,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col text-center">
+            <div className="col-md-2 mx-auto">
               <ul className="footer__ul">
                 <li className="text-white footer__span__sm">
                   Amazon Web Services
@@ -140,21 +137,21 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col text-center">
+            <div className="col-md-2 mx-auto">
               <ul className="footer__ul">
                 <li className="text-white footer__span__sm">Audible</li>
                 <li className="footer__text footer__span__sm">Download</li>
                 <li className="footer__text footer__span__sm">Audio Books</li>
               </ul>
             </div>
-            <div className="col text-center">
+            <div className="col-md-2 mx-auto">
               <ul className="footer__ul">
                 <li className="text-white footer__span__sm">DPReview</li>
                 <li className="footer__text footer__span__sm">Digital</li>
                 <li className="footer__text footer__span__sm">Photography</li>
               </ul>
             </div>
-            <div className="col text-center">
+            <div className="col-md-2 mx-auto">
               <ul className="footer__ul">
                 <li className="text-white footer__span__sm">IMDb</li>
                 <li className="footer__text footer__span__sm">Movies, TV</li>
@@ -169,11 +166,8 @@ function Footer() {
             <br />
           </div>
 
-          <div
-            className="row justify-content-center"
-            style={{ backgroundColor: "rgb(19, 26, 33)" }}
-          >
-            <div className="col text-center">
+          <div className="row" style={{ backgroundColor: "rgb(19, 26, 33)" }}>
+            <div className="col-md-2 mx-auto">
               <ul className="footer__ul">
                 <li className="text-white footer__span__sm">Shopbop</li>
                 <li className="footer__text footer__span__sm">Designer</li>
@@ -182,7 +176,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col text-center">
+            <div className="col-md-2 mx-auto">
               <ul className="footer__ul">
                 <li className="text-white footer__span__sm">Amazon Business</li>
                 <li className="footer__text footer__span__sm">
@@ -191,7 +185,7 @@ function Footer() {
                 <li className="footer__text footer__span__sm">Your Business</li>
               </ul>
             </div>
-            <div className="col text-center">
+            <div className="col-md-2 mx-auto">
               <ul className="footer__ul">
                 <li className="text-white footer__span__sm">Prime Now</li>
                 <li className="footer__text footer__span__sm">
@@ -202,7 +196,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col text-center">
+            <div className="col-md-2 mx-auto">
               <ul className="footer__ul">
                 <li className="text-white footer__span__sm">
                   Amazon Prime Music
@@ -215,7 +209,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col"></div>
+            <div className="col-md-2 mx-auto"></div>
           </div>
         </section>
 

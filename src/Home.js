@@ -4,13 +4,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Product from "./Product";
 import "./Home.css";
 
-
 // This is the home page component
 function Home() {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth"
+      behavior: "smooth",
     });
   };
   return (
@@ -20,7 +19,7 @@ function Home() {
         className="home__image"
         nextLabel={""}
         prevLabel={""}
-        interval={2000}
+        interval={4000}
         slide="true"
         wrap="true"
       >
@@ -85,7 +84,7 @@ function Home() {
         nextLabel={""}
         prevLabel={""}
         className="home__row btm-carousel"
-        interval={2000}
+        interval={4000}
         slide="true"
         wrap="true"
       >
@@ -198,11 +197,12 @@ function Home() {
           image="https://www.amazon.in/images/I/51T8OXMiB5L.jpg"
         />
       </div>
-      <div className="btn btn-outline-secondary back" onClick={scrollToTop}>back to top</div>
+      <div className="btn btn-outline-secondary back" onClick={scrollToTop}>
+        back to top
+      </div>
     </div>
   );
   //Get the button:
-
 }
 
 // Anything that we have to use outside of this file, we export it

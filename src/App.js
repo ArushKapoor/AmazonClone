@@ -7,20 +7,19 @@ import Checkout from "./Checkout";
 import Login from "./Login";
 import { useStateValue } from "./StateProvider";
 import { auth } from "./firebase";
+import Footer from "./Footer";
 
 // Everthing in React is put in a components to make it easy to reuse
 // the code.
 
 // This is a function based component.
 function App() {
-
   // Calling in the data layer/ global variable
   const [{ user }, dispatch] = useStateValue();
 
   // useEffect <<<<<<<< POWERFUL
   // Piece of code which runs based on a given condition...
   useEffect(() => {
-    
     // We are attaching a listener to auth variable in firebase.js so that
     // it checks whether the user is signed in or not
     const unsubscribe = auth.onAuthStateChanged((authUser) => {
@@ -75,6 +74,7 @@ function App() {
           <Route path="/">
             <Header />
             <Home />
+            <Footer />
           </Route>
         </Switch>
       </div>

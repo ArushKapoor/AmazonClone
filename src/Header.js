@@ -109,7 +109,7 @@ function Header() {
 <nav className="bg-dark text-white py-2 px-3">
  <div className="d-flex align-items-center justify-content-between">
  <div>
- <button className="btn btn-secondary fw-bold" onClick={toggleSidebar}><i class="bi bi-list"> All</i></button>
+ <button className="btn btn-secondary fw-bold" onClick={toggleSidebar}><a class="bi text-decoration-none btn-outline-light bi-list"> All</a></button>
   <a href="#bestSeller" className="ms-3 text-decoration-none btn btn-outline-light">Best Seller</a>
   <a href="#mobile" className="ms-3 text-decoration-none btn btn-outline-light">Mobiles</a>
   <a href="#fashion" className="ms-3 text-decoration-none btn btn-outline-light">Fashion</a>
@@ -147,13 +147,27 @@ function Header() {
   </ul>
   <hr className="m-0" style={{"height" : "1px", "color" : "black"}} />
   <ul className="list-unstyled bg-white text-dark py-4 px-4 m-0">
-    <li><h4>Digital Content and Devices</h4></li>
-    <li className="py-3">Echo & Alexa</li>
-    <li className="py-3">Fire TV</li>
-    <li className="py-3">Kindle E-Readers & e-books</li>
-    <li className="py-3">Audible Audiobooks</li>
-    <li className="py-3">Amazon Prime Video</li>
-    <li className="py-3">Amazon Prime Music</li>
+    <li><h4>Shop By Department</h4></li>
+    <li className="py-3">Mobiles, Computers</li>
+    <li className="py-3">TV, Appliances, Electronics</li>
+    <li className="py-3">Men's Fashion</li>
+    <li className="py-3">Women's Fashion</li>
+  </ul>
+  <hr className="m-0" style={{"height" : "1px", "color" : "black"}} />
+  <ul className="list-unstyled bg-white text-dark py-4 px-4 m-0">
+    <li><h4>Programs & Features</h4></li>
+    <li className="py-3">Gift Cards & Mobile Recharges</li>
+    <li className="py-3">Flight Tickets</li>
+    <li className="py-3">#FoundItOnAmazon</li>
+    <li className="py-3">Amazon Assistant</li>
+    <li className="py-3">Full Store Directory</li>
+  </ul>
+  <hr className="m-0" style={{"height" : "1px", "color" : "black"}} />
+  <ul className="list-unstyled bg-white text-dark py-4 px-4 m-0">
+    <li><h4>Help & Settings</h4></li>
+    <li className="py-3">Your Account</li>
+    <li className="py-3">Customer Service</li>
+    <li className="py-3">Sign In</li>
   </ul>
 </div>
 <div className={`position-fixed top-0 start-0 end-0 bottom-0 ${!isOpen ? "": "d-none"}`} style={{backgroundColor: "rgba(0,0,0,0.9)", "z-index": "9999"}}></div>

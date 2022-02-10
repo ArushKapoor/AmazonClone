@@ -1,4 +1,4 @@
-## Webiste Link
+## Website Link
 
 [Amazon Clone](https://clone-a8ee3.web.app/)
 
